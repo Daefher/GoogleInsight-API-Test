@@ -67,5 +67,4 @@ with open("pageSpeedList.txt") as pageSpeedListURL:
     overallscoreM = str((overallscoreM / len(content) * 100))
     finalrow = f" ,  , OverallScore , {overallscore}, {overallscoreM} \n"
     dump_file.write(finalrow)    
-    dump_file.write('something')
     dump_file.close()
